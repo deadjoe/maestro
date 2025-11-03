@@ -1,4 +1,4 @@
-![Maestro Logo](maestro.png)
+<img src="./maestro.png" alt="maestro logo" width="30%">
 
 # Maestro - Interactive Spanish Language Teacher
 
