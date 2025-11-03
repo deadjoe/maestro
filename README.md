@@ -41,14 +41,14 @@ Maestro is an interactive Spanish language teacher that transforms Claude Code i
 
 ### Installation 
 
-#### 1. Claude Desktop/Web
+### 1. Claude Desktop/Web
 
 Open the setting from Claude Desktop app or from Web and simply upload the skill file **"maestro.skill"**. That's All !
 
 <img src="./claude_desktop.png" alt="Add maestro skill " width="100%">
 
 
-#### 2. Claude Code 
+### 2. Claude Code 
 
 ```bash
 # Navigate to the maestro directory
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 uv pip install -r requirements.txt
 ```
 
-### Setup Your Learning Workspace
+#### Setup Your Learning Workspace
 
 ```bash
 # Create your personal learning directory
@@ -70,7 +70,7 @@ mkdir -p ~/spanish-learning/{weekly_reports,practice_materials/{news,dialogues,e
 cp maestro/progress_template.md ~/spanish-learning/progress.md
 ```
 
-### Start Learning
+### 3. Start Learning
 
 Open Claude Code and say:
 
