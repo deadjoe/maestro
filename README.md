@@ -134,39 +134,6 @@ Claude desktop/web and Claude Code also support Skills natively and can keep thi
 
 ---
 
-## Project Structure
-
-```
-maestro/
-├── SKILL.md                          # Core teaching instructions for Claude
-├── README.md                         # This file
-├── QUICKSTART.md                     # 5-minute setup guide
-├── requirements.txt                  # Python dependencies
-├── progress_template.md              # Student progress tracking template
-├── maestro.png                       # Project logo
-├── curriculum/
-│   ├── A1_curriculum.md             # Weeks 1-12 detailed lessons
-│   ├── A2_curriculum.md             # Weeks 13-24 detailed lessons
-│   ├── B1_curriculum.md             # Weeks 25-40 detailed lessons
-│   └── B2_curriculum.md             # Weeks 41-52 detailed lessons
-├── teaching_guides/
-│   ├── assessment_rubrics.md        # Scoring standards
-│   ├── grammar_reference.md         # Quick grammar lookup
-│   ├── regional_differences.md      # Spain vs Mexico vs Latin America
-│   └── scenarios.md                 # Role-play scenarios
-├── scripts/
-│   ├── vocab_tracker.py             # Spaced repetition system
-│   ├── progress_analyzer.py         # Reports and analytics
-│   ├── content_fetcher.py           # Web content retrieval
-│   └── practice_generator.py        # Exercise generation
-├── resources/
-│   └── vocabulary_lists/
-│       └── A1_vocabulary.md         # Core 500 words
-└── data/                             # (Created during use)
-```
-
----
-
 ## How It Works
 
 ### Two Main Learning Modes
