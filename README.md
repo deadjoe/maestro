@@ -76,7 +76,7 @@ cp maestro/progress_template.md ~/spanish-learning/progress.md
 
 Open Claude Desktop app/Claude Web or Claude Code and say:
 
-(Suggestion: Create a project and put all your Spanish learning chats in that project if you choose to use Claude Desktop app or Claude web)
+Suggestion: Create a project and put all your Spanish learning chats in that project if you choose to use Claude Desktop app or Claude web.
 
 ```
 "我想开始学习西班牙语"
