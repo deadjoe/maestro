@@ -93,13 +93,16 @@ Maestro will automatically activate and begin your initial assessment!
 
 ### 4. Can i run this skill in other AI agent tools? 
 
-Like ChatGPT/Codex CLI, Gemini/Gemini CLI ...
+Yes.
 
-Yes. Just upload all the skill as normal attachment to those AI chat agent or extract maestro to a directory and ask AI agent CLI to read it.
+In tools like ChatGPT, Claude, Gemini or their CLIs (Codex CLI, Gemini CLI, etc.), you can either:
 
-Better to use this skill files in sort of features like Cluade and ChatGPT's "Project".
+- upload the entire skill as attachments, or  
+- extract the `maestro` folder and point the agent/CLI to that directory.
 
-And keep in mind that Claude desktop app/Web and Claude Code provide native capabilities of Skills and it can keep running with dynamic Skill's context management.
+For best results, use this skill inside features like Claude or ChatGPT *Projects*, which provide better control over context and conversation history.  
+
+Claude desktop/web and Claude Code also support Skills natively and can keep this skill running with dynamic context management.
 
 ---
 
