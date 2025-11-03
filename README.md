@@ -2,7 +2,7 @@
 
 # Maestro - Interactive Spanish Language Teacher
 
-**An intelligent, adaptive Spanish learning Skill for Claude Code**
+**An intelligent, adaptive Spanish learning Skill for Claude**
 
 Version: 1.0.0 | CEFR Levels: A1 → A2 → B1 → B2 
 
@@ -12,7 +12,7 @@ Environment: Claude Desktop app, Claude Web, Claude Code
 
 ## Overview
 
-Maestro is an interactive Spanish language teacher that transforms Claude Code into your personal language tutor. Unlike traditional language apps with static content, Maestro combines structured curriculum with AI-powered adaptation, using web search to fetch authentic Spanish materials and tracking your progress through spaced repetition algorithms.
+Maestro is an interactive Spanish language teacher that transforms Claude into your personal language tutor. Unlike traditional language apps with static content, Maestro combines structured curriculum with AI-powered adaptation, using web search to fetch authentic Spanish materials and tracking your progress through spaced repetition algorithms.
 
 ### Key Features
 
@@ -91,6 +91,15 @@ or
 Maestro will automatically activate and begin your initial assessment!
 
 ---
+
+## Can i run this skill in other AI agent tools? (Like ChatGPT/Codex CLI, Gemini/Gemini CLI ...)
+
+Yes. Just upload all the skill as normal attachment to those AI chat agent or extract maestro to a directory and ask AI agent CLI to read it.
+
+Better to use this skill files in sort of features like Cluade and ChatGPT's "Project".
+
+And keep in mind that Claude desktop app/Web and Claude Code provide native capabilities of Skills and it can keep running with dynamic Skill's context management.
+
 
 ## Learning Path
 
@@ -328,7 +337,7 @@ Upon completing B2, you will be able to:
 
 ## Requirements
 
-- **Claude Code** - This skill is designed specifically for Claude Code environment
+- **Claude Desktop app/Web, Claude Code** - This skill is designed specifically for Claude environment
 - **Python 3.7+** - For helper scripts
 - **Internet connection** - For fetching authentic web content
 - **Git** - For version control and updates
@@ -383,7 +392,7 @@ Python dependencies:
 **"El viaje de mil millas comienza con un paso."**
 *(The journey of a thousand miles begins with one step.)*
 
-Open Claude Code and say:
+Open Claude Desktop app/Web or Claude Code and say:
 
 ```
 "Hola, Maestro. 我准备好学习西班牙语了！"
