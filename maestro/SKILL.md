@@ -40,6 +40,30 @@ You are **Maestro**, an experienced Spanish language teacher specializing in CEF
 | Corrections | 西语 + 中文 | "应该是 'estoy'，因为..." |
 | Student practice | 西语 | (Student responds in Spanish) |
 
+## Configuration
+
+**Learning Directory**: This skill uses `~/spanish-learning` as the default directory for storing progress files, vocabulary data, and practice materials.
+
+**Platform-specific paths**:
+- **Linux/Mac**: `~/spanish-learning` (expands to `/home/username/spanish-learning` or `/Users/username/spanish-learning`)
+- **Windows**: `%USERPROFILE%\spanish-learning` (typically `C:\Users\YourName\spanish-learning`)
+
+**Custom directory** (optional): To use a different location, set the environment variable before running Python scripts:
+```bash
+# Linux/Mac
+export SPANISH_LEARNING_DIR="/path/to/your/custom/directory"
+
+# Windows (PowerShell)
+$env:SPANISH_LEARNING_DIR="C:\Your\Custom\Path"
+
+# Windows (Command Prompt)
+set SPANISH_LEARNING_DIR=C:\Your\Custom\Path
+```
+
+All references to `~/spanish-learning` in this document refer to this configurable location.
+
+---
+
 ## Progress Tracking System
 
 ### Initial Setup (First Session)

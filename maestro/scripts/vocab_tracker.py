@@ -16,7 +16,8 @@ from pathlib import Path
 import argparse
 
 # Data file location
-DATA_DIR = Path.home() / "spanish-learning"
+# Supports custom directory via SPANISH_LEARNING_DIR environment variable
+DATA_DIR = Path(os.getenv("SPANISH_LEARNING_DIR", str(Path.home() / "spanish-learning")))
 VOCAB_FILE = DATA_DIR / "vocabulary_data.json"
 
 

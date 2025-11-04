@@ -11,11 +11,13 @@ Features:
 """
 
 import argparse
+import os
 import re
 from datetime import datetime
 from pathlib import Path
 
-DATA_DIR = Path.home() / "spanish-learning"
+# Supports custom directory via SPANISH_LEARNING_DIR environment variable
+DATA_DIR = Path(os.getenv("SPANISH_LEARNING_DIR", str(Path.home() / "spanish-learning")))
 PROGRESS_FILE = DATA_DIR / "progress.md"
 REPORTS_DIR = DATA_DIR / "weekly_reports"
 
