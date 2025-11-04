@@ -238,19 +238,11 @@ Analyzes learning patterns and generates reports:
 - Predicts level advancement
 - Visualizes learning curve
 
-### Content Fetcher (`scripts/content_fetcher.py`)
-Retrieves authentic Spanish content from the web:
-- News articles (simplified to level)
-- Restaurant menus
-- Rental listings
-- Social media content
+### Content Fetcher (`scripts/content_fetcher.py`) - *Placeholder*
+**Note**: This script is currently not implemented. Claude uses WebSearch tool directly during lessons to fetch authentic Spanish content in real-time. Available as an extension point for users who need batch content fetching.
 
-### Practice Generator (`scripts/practice_generator.py`)
-Creates customized exercises:
-- Fill-in-the-blank
-- Translation practice
-- Conjugation drills
-- Mixed exercises targeting weaknesses
+### Practice Generator (`scripts/practice_generator.py`) - *Placeholder*
+**Note**: This script is currently not implemented. Claude generates exercises dynamically during lessons based on your progress. Available as an extension point for users who need pre-generated exercise sets.
 
 ---
 
@@ -342,7 +334,7 @@ Python dependencies:
 ### v1.0.0 (November 2025)
 - Initial release
 - Complete A1-B2 curriculum (52 weeks)
-- Four Python helper scripts
+- Two working Python scripts (vocab_tracker, progress_analyzer) + two placeholder scripts (content_fetcher, practice_generator)
 - Progress tracking and spaced repetition
 - Regional variations support (Spain, Mexico, LA)
 - Web content integration
