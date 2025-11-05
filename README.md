@@ -43,7 +43,7 @@ Maestro is an interactive Spanish language teacher that transforms Claude into y
 
 ### Installation 
 
-### 1. Claude Desktop/Web
+### 1. Claude Desktop/Web App
 
 Open the setting from Claude Desktop app or from Web and simply upload the skill file **"maestro.skill"**. That's All !
 
