@@ -95,7 +95,7 @@ Maestro will automatically activate and begin your initial assessment!
 
 Yes.
 
-In tools like ChatGPT, Claude, Gemini or their CLIs (Codex CLI, Gemini CLI, etc.), you can either:
+In tools like ChatGPT, Gemini Desktop/Web App or their CLIs (Codex CLI, Gemini CLI, etc.), you can either:
 
 - upload the entire skill as attachments, or  
 - extract the `maestro` folder and point the agent/CLI to that directory.
