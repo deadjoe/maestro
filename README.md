@@ -41,16 +41,16 @@ Maestro is an interactive Spanish language teacher that transforms Claude into y
 
 ## Quick Start
 
-### Installation 
+### 1. Installation 
 
-### 1. Claude Desktop/Web App
+### Claude Desktop/Web App
 
 Open the setting from Claude Desktop app or from Web and simply upload the skill file **"maestro.skill"**. That's All !
 
 <img src="./claude_desktop.png" alt="Add maestro skill " width="100%">
 
 
-### 2. Claude Code 
+### Claude Code 
 
 ```bash
 # Navigate to the maestro directory
@@ -72,7 +72,7 @@ mkdir -p ~/spanish-learning/{weekly_reports,practice_materials/{news,dialogues,e
 cp maestro/progress_template.md ~/spanish-learning/progress.md
 ```
 
-### 3. Start Learning
+### 2. Start Learning
 
 Open Claude Desktop app/Claude Web or Claude Code and say:
 
@@ -91,7 +91,7 @@ or
 Maestro will automatically activate and begin your initial assessment!
 
 
-### 4. Can i run this skill in other AI agent tools? 
+### 3. Can i run this skill in other AI agent tools? 
 
 Yes.
 
