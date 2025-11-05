@@ -4,7 +4,7 @@
 
 **An intelligent, adaptive Spanish learning Skill for Claude**
 
-Version: 1.0.0 | CEFR Levels: A1 → A2 → B1 → B2 
+Version: 1.1.0 | CEFR Levels: A1 → A2 → B1 → B2 
 
 Environment: Claude Desktop app, Claude Web, Claude Code
 
