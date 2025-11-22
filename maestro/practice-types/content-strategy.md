@@ -161,12 +161,15 @@ Determine if content matches student's CEFR level:
 
 **Naming convention**:
 ```
-[type]-[region]-[date].txt
+[type]-[region]-[timestamp].txt
 
 Examples:
-menu-madrid-2024-01-15.txt
-news-mexico-2024-01-20.txt
-rental-barcelona-2024-01.txt
+menu-madrid-YYYY-MM-DD.txt
+news-mexico-YYYY-MM-DD.txt
+rental-barcelona-YYYY-MM.txt
+
+Note: Use actual timestamps when saving, but avoid hardcoding
+specific years in documentation to prevent outdated examples.
 ```
 
 ### Step 5: Create Exercises
