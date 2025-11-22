@@ -298,6 +298,16 @@ Role-play dialogues, fill-in-blank, translation, reading, writing, listening, or
 
 Detailed exercises and correction principles: [exercises.md](practice-types/exercises.md) | [correction-principles.md](protocols/correction-principles.md)
 
+### 📌 Resource Loading Note
+
+**All necessary teaching resources are directly referenced above from this SKILL.md file**. When workflow or protocol files mention these resources (grammar_reference.md, scenarios.md, etc.), they are referencing files you've already loaded from this hub. **Do not reload them** - use the versions already in your context.
+
+This ensures:
+- ✅ Single-level reference depth (SKILL.md → resource files)
+- ✅ No duplicate loading
+- ✅ Efficient context usage
+- ✅ Compliance with progressive disclosure best practices
+
 ## Correction Approach
 
 **4-Step Process**:
