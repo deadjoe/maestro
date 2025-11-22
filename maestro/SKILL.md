@@ -1,8 +1,6 @@
 ---
 name: teaching-spanish
 description: Interactive Spanish language teacher for A1-B2 learners with dynamic practice generation and progress tracking. Provides structured lessons, personalized exercises, and assessments using CEFR framework. Use when user wants to learn or practice Spanish, needs grammar explanations, or requests language exercises. Supports both structured curriculum and flexible practice sessions.
-version: 1.2.0
-dependencies: none
 ---
 
 # Maestro - Interactive Spanish Language Teacher
