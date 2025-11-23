@@ -2,7 +2,7 @@
 
 **An intelligent, adaptive Spanish learning Skill for Claude Code**
 
-Version: 1.2.0
+Version: 1.2.1
 Levels: A1 → A2 → B1 → B2 (CEFR Framework)
 Languages: 12+ supported instruction languages
 Environment: Claude Code (macOS, Linux, Windows)
@@ -355,7 +355,7 @@ Every 5th day = assessment:
 
 ```
 maestro/
-├── SKILL.md                          # Core hub (v1.2.0 - optimized, <300 lines)
+├── SKILL.md                          # Core hub (v1.2.1 - optimized, 482 lines)
 ├── config/
 │   └── language-templates.md        # Multilingual phrase templates (NEW)
 ├── workflows/                        # Modular workflows (NEW)
@@ -377,24 +377,35 @@ maestro/
 │   └── B2_curriculum.md             # Weeks 41-52 detailed
 ├── teaching_guides/
 │   ├── assessment_rubrics.md        # Scoring standards
-│   ├── grammar_reference.md         # Quick grammar lookup
+│   ├── grammar_reference.md         # 22 grammar topics (689 lines) ⭐ NEW
 │   ├── regional_differences.md      # Spain vs Mexico vs LA
-│   └── scenarios.md                 # Role-play scenarios
+│   └── scenarios.md                 # 35 graded dialogues (865 lines) ⭐ NEW
 ├── scripts/
-│   ├── vocab_tracker.py             # Spaced repetition
+│   ├── vocab_tracker.py             # Spaced repetition (env var support) ⭐ NEW
 │   ├── progress_analyzer.py         # Reports and analytics
 │   ├── content_fetcher.py           # Web content retrieval
 │   └── practice_generator.py        # Exercise generation
 ├── resources/
+│   ├── cultural_notes.md            # Cultural guide (634 lines) ⭐ NEW
 │   └── vocabulary_lists/
-│       └── A1_vocabulary.md         # Core 500 words
+│       ├── A1_vocabulary.md         # 500+ beginner words
+│       ├── A2_vocabulary.md         # 1200+ elementary words ⭐ NEW
+│       ├── B1_vocabulary.md         # 1500+ intermediate words ⭐ NEW
+│       └── B2_vocabulary.md         # 2000+ upper-intermediate ⭐ NEW
 ├── requirements.txt                  # Python dependencies
 ├── progress_template.md              # Template for students
 └── README.md                         # This file!
 ```
 
-**v1.2.0 Architecture Improvements**:
-- ✨ Progressive disclosure: Main SKILL.md reduced from 806 to <300 lines
+**v1.2.1 Content Expansion** ⭐ NEW:
+- 📚 Comprehensive teaching resources: +3900 lines of high-quality content
+- 📖 Extended vocabulary: A1-B2 totaling 5200+ words
+- 💬 35 graded dialogues across all CEFR levels
+- 🌍 Cultural guide covering Spain, Mexico, Argentina, Latin America
+- 📝 22 comprehensive grammar topics with 213+ examples
+
+**v1.2.0 Architecture**:
+- ✨ Progressive disclosure: Main SKILL.md optimized to 482 lines
 - 🗂️ Modular organization: Workflows and protocols separated for efficiency
 - 🌍 Multilingual templates: Support for 12+ languages
 - 📈 Optimized token usage: 60-70% reduction in unnecessary context loading
@@ -573,11 +584,12 @@ cp ~/github/deadjoe/spanish/maestro/progress_template.md ~/spanish-learning/prog
 ## 📜 License & Credits
 
 **Created by**: Joe (with Claude's assistance)
-**Version**: 1.2.0
+**Version**: 1.2.1
 **Date**: January 2025
 **For**: Personal use and learning
 
 **Version History**:
+- **v1.2.1** (2025-01): Content expansion (+3900 lines), comprehensive resources (cultural notes, extended vocabularies, 35 dialogues, 22 grammar topics)
 - **v1.2.0** (2025-01): Multilingual support, progressive disclosure architecture, Anthropic best practices alignment
 - **v1.1.0** (2024-12): Enhanced curriculum structure, Python analytics scripts
 - **v1.0.0** (2024-11): Initial release

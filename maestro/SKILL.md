@@ -258,6 +258,7 @@ python maestro/scripts/practice_generator.py --type "translation" --direction "n
 - Basic grammar rules (use `teaching_guides/grammar_reference.md`)
 - Standard conjugations (you know this)
 - Core vocabulary (use `resources/vocabulary_lists/`)
+- General cultural knowledge (use `resources/cultural_notes.md` as baseline)
 
 **Search Best Practices**:
 - Use "actual" or "reciente" instead of specific years
@@ -272,7 +273,22 @@ python maestro/scripts/practice_generator.py --type "translation" --direction "n
 ### Grammar Reference
 **File**: `teaching_guides/grammar_reference.md`
 
-Complete conjugation tables, ser/estar rules, subjunctive usage, all A1-B2 grammar.
+22 grammar topics covering A1-B2: conjugations, ser/estar, subjunctive, commands, pronouns, comparisons, etc.
+
+### Vocabulary Lists
+**Files**: `resources/vocabulary_lists/` - A1 (500+), A2 (1200+), B1 (1500+), B2 (2000+ words)
+
+Thematic vocabulary by CEFR level. Reference when student asks level expectations or needs word ideas.
+
+### Scenario Library
+**File**: `teaching_guides/scenarios.md`
+
+35 graded dialogues (A1→B2) across 6 scenarios: Travel, Social, Daily Life, Work, Academic, Entertainment. Use as complexity models.
+
+### Cultural Notes
+**File**: `resources/cultural_notes.md`
+
+Spain, Mexico, Argentina, Latin America: daily life, etiquette, festivals, regional variations. Supplement with WebSearch for current info.
 
 ### Assessment Rubrics
 **File**: `teaching_guides/assessment_rubrics.md`
@@ -282,29 +298,26 @@ Complete conjugation tables, ser/estar rules, subjunctive usage, all A1-B2 gramm
 ### Regional Differences
 **File**: `teaching_guides/regional_differences.md`
 
-Spain vs Mexico/Latin America: vocabulary, grammar (vosotros), pronunciation, expressions.
-
-### Scenario Library
-**File**: `teaching_guides/scenarios.md`
-
-6 core scenarios: Travel, Social, Daily Life, Work, Study, Entertainment.
+Spain vs Mexico/Latin America: vocabulary, grammar (vosotros), pronunciation, expressions. See also `cultural_notes.md` for comprehensive content.
 
 ### Practice Types
 **Files**: `practice-types/*.md`
 
-Role-play dialogues, fill-in-blank, translation, reading, writing, listening, oral expression.
+Role-play, fill-in-blank, translation, reading, writing, listening, oral expression.
 
-Detailed exercises and correction principles: [exercises.md](practice-types/exercises.md) | [correction-principles.md](protocols/correction-principles.md)
+Detailed exercises and correction: [exercises.md](practice-types/exercises.md) | [correction-principles.md](protocols/correction-principles.md)
 
 ### 📌 Resource Loading Note
 
-**All necessary teaching resources are directly referenced above from this SKILL.md file**. When workflow or protocol files mention these resources (grammar_reference.md, scenarios.md, etc.), they are referencing files you've already loaded from this hub. **Do not reload them** - use the versions already in your context.
+**All teaching resources are directly referenced above from this SKILL.md file**. When workflows or protocols mention these resources, they reference files already in your context. **Do not reload them**.
 
 This ensures:
 - ✅ Single-level reference depth (SKILL.md → resource files)
 - ✅ No duplicate loading
 - ✅ Efficient context usage
 - ✅ Compliance with progressive disclosure best practices
+
+**Flexibility**: Use resources as reference backup when needed. Generate content dynamically based on student needs.
 
 ## Correction Approach
 
@@ -416,13 +429,17 @@ maestro/
 │   ├── B1_curriculum.md         # Weeks 25-40
 │   └── B2_curriculum.md         # Weeks 41-52
 ├── teaching_guides/
-│   ├── grammar_reference.md     # Complete grammar tables
+│   ├── grammar_reference.md     # 22 grammar topics (A1-B2)
 │   ├── assessment_rubrics.md    # Evaluation criteria
 │   ├── regional_differences.md  # Spain vs Mexico/LA
-│   └── scenarios.md             # Role-play scenarios
+│   └── scenarios.md             # 35 graded dialogues
 ├── resources/
+│   ├── cultural_notes.md        # Cultural guide (634 lines)
 │   └── vocabulary_lists/
-│       └── A1_vocabulary.md     # 500+ beginner words
+│       ├── A1_vocabulary.md     # 500+ beginner words
+│       ├── A2_vocabulary.md     # 1200+ elementary words
+│       ├── B1_vocabulary.md     # 1500+ intermediate words
+│       └── B2_vocabulary.md     # 2000+ upper-intermediate words
 └── scripts/
     ├── vocab_tracker.py         # Spaced repetition
     ├── progress_analyzer.py     # Learning analytics
@@ -432,7 +449,15 @@ maestro/
 
 ## Version History
 
-**v1.2.0** (Current):
+**v1.2.1** (Current):
+- 📚 Added comprehensive teaching resources (3900+ lines)
+- ✨ Cultural notes for Spain, Mexico, Argentina, Latin America
+- 📖 Extended vocabulary lists: A2 (1200+), B1 (1500+), B2 (2000+ words)
+- 💬 Expanded scenarios.md to 35 graded dialogues across all levels
+- 📝 Extended grammar_reference.md to 22 comprehensive topics
+- 🔧 Enhanced vocab_tracker.py with environment variable support
+
+**v1.2.0**:
 - ✨ Added multilingual instruction support (12+ languages)
 - ♻️ Refactored to progressive disclosure architecture
 - 📝 Reduced main SKILL.md to <300 lines (from 806)
